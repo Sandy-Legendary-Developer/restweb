@@ -1,0 +1,134 @@
+body{
+    min-height: 100vh;
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+header > img{
+    margin-top: 14px;
+}
+
+header > h1{
+    color: rgb(51, 187, 51);
+    letter-spacing: 2px;
+}
+
+nav{
+    text-align: center;
+    background-color: rgb(86, 86, 86);
+    margin: 0 3rem;
+    padding: 0.125rem;
+    border-radius: 20px;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+nav > ul > li{
+    list-style-type: none;
+}
+
+nav > ul > li > a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover{
+    color: gold;
+}
+
+.special-offer{
+    width: 75%;
+    height: 150px;
+    margin: 32px auto;
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),  /* we are using it to dim the background  */
+    url('./assets/restaurant-briyani.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    color: white;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cards{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.new-menu-card{
+    width: 350px;
+    height: 500px;
+    background-color: papayawhip;
+    border-radius: 20px;
+    padding: 10px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+.book-table-card{
+    width: 350px;
+    height: 500px;
+    background-color: papayawhip;
+    border-radius: 20px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+.opening-card{
+    width: 350px;
+    height: 500px;
+    background-color: papayawhip;
+    border-radius: 20px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+.cards > div > a{
+    color: blue;
+}
+
+.cards > div > a:hover{
+    color: red;
+}
+
+footer{
+    background-color: rgb(50, 50, 50);
+    color: white;
+    padding: 4px;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.creater > a{
+    font-size: 20px;
+    text-decoration: none;
+    color: gold;
+}
+
+.creater > a:hover{
+    color: orange;
+}
